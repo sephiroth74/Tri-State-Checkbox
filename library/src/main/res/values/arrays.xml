@@ -28,9 +28,9 @@
     <!-- cycle between unchecked and indeterminate only -->
     <integer-array name="sephiroth_checkbox3_cycleUncheckedIndeterminateOnly">
         <item>0</item>
-        <item>1</item>
-        <item>1</item>
         <item>0</item>
+        <item>1</item>
+        <item>1</item>
     </integer-array>
 
     <!-- Regular checkbox cycles. Checked and Unchecked states only -->
