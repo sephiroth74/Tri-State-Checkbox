@@ -6,7 +6,7 @@
                 android:duration="166"
                 android:interpolator="@interpolator/sephiroth_checkbox3_checked_mtrl_animation_interpolator_1"
                 android:propertyName="pathData"
-                android:valueFrom="@string/path_unchecked"
+                android:valueFrom="@string/sephiroth_checkbox3_path_unchecked"
                 android:valueTo="@string/sephiroth_checkbox3_path_circle_centered"
                 android:valueType="pathType"/>
         <objectAnimator
@@ -14,7 +14,7 @@
                 android:interpolator="@interpolator/sephiroth_checkbox3_checked_mtrl_animation_interpolator_1"
                 android:propertyName="pathData"
                 android:valueFrom="@string/sephiroth_checkbox3_square_not_rotated_center"
-                android:valueTo="@string/path_indeterminate"
+                android:valueTo="@string/sephiroth_checkbox3_path_indeterminate"
                 android:valueType="pathType"/>
     </set>
 </set>

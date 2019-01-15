@@ -18,7 +18,7 @@
             <path
                     android:name="check_path_merged"
                     android:fillColor="?attr/colorAccent"
-                    android:pathData="@string/path_checked"/>
+                    android:pathData="@string/sephiroth_checkbox3_path_checked"/>
         </group>
         <group
                 android:name="box_dilate"

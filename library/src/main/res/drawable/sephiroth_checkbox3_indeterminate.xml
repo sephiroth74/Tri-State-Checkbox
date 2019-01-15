@@ -28,7 +28,7 @@
             <path
                     android:name="box_inner_merged"
                     android:fillColor="?attr/colorAccent"
-                    android:pathData="@string/path_indeterminate"/>
+                    android:pathData="@string/sephiroth_checkbox3_path_indeterminate"/>
         </group>
     </group>
 </vector>

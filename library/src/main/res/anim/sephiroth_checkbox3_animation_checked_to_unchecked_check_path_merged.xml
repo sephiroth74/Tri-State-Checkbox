@@ -3,7 +3,7 @@
     <objectAnimator
             android:duration="166"
             android:propertyName="pathData"
-            android:valueFrom="@string/path_checked"
+            android:valueFrom="@string/sephiroth_checkbox3_path_checked"
             android:valueTo="@string/sephiroth_checkbox3_square_centered"
             android:valueType="pathType"
             android:interpolator="@interpolator/sephiroth_checkbox3_checked_mtrl_animation_interpolator_1"/>

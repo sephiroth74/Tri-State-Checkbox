@@ -10,6 +10,6 @@
             android:translateY="9">
         <path
                 android:fillColor="?attr/colorAccent"
-                android:pathData="@string/path_checked"/>
+                android:pathData="@string/sephiroth_checkbox3_path_checked"/>
     </group>
 </vector>

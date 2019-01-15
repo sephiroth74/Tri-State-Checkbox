@@ -13,7 +13,7 @@
             android:interpolator="@interpolator/sephiroth_checkbox3_checked_mtrl_animation_interpolator_1"
             android:propertyName="pathData"
             android:valueFrom="@string/sephiroth_checkbox3_path_circle_centered"
-            android:valueTo="@string/path_indeterminate"
+            android:valueTo="@string/sephiroth_checkbox3_path_indeterminate"
             android:valueType="pathType" />
     </set>
     <set android:ordering="sequentially">
