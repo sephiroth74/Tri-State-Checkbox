@@ -19,7 +19,7 @@
                     android:name="box_outer_merged"
                     android:fillAlpha="0"
                     android:fillColor="?attr/colorAccent"
-                    android:pathData="@string/path_square_box_bottom_left"/>
+                    android:pathData="@string/sephiroth_checkbox3_circle_bottom_left"/>
         </group>
         <group
                 android:name="box_dilate"

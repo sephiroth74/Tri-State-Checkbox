@@ -19,7 +19,7 @@
                     android:name="indeterminate_box_outer_merged"
                     android:fillAlpha="0"
                     android:fillColor="?attr/colorControlNormal"
-                    android:pathData="@string/path_square_box_center_not_rotated"/>
+                    android:pathData="@string/sephiroth_checkbox3_square_not_rotated_center"/>
         </group>
         <group
                 android:name="box_dilate"

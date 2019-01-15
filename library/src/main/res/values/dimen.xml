@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="sephiroth_checkbox3_text_gap">13dp</dimen>
-    <dimen name="sephiroth_checkbox3_text_font_size">17dp</dimen>
     <dimen name="sephiroth_checkbox3_size">18dp</dimen>
     <dimen name="sephiroth_checkbox3_size_key_focus">20dp</dimen>
 </resources>

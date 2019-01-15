@@ -6,15 +6,9 @@
         <item name="sephiroth_checkbox3_checkableCycle">@array/sephiroth_checkbox3_cycleIndeterminate</item>
         <item name="android:button">@drawable/sephiroth_checkbox3_anim</item>
         <item name="android:paddingLeft">@dimen/sephiroth_checkbox3_text_gap</item>
-        <item name="android:textSize">@dimen/sephiroth_checkbox3_text_font_size</item>
     </style>
 
     <!-- CheckBox3 Default Style -->
-    <style name="Sephiroth.Widget.Checkbox3" parent="Base.Sephiroth.Widget.Checkbox3" />
-
-    <!--<style name="Sephiroth.Widget.Checkbox3.Lightest">-->
-    <!--<item name="android:button">@drawable/adobe_spectrum_lightest_check_material_anim</item>-->
-    <!--<item name="android:textColor">@color/adobe_spectrum_lightest_textcolor</item>-->
-    <!--</style>-->
+    <style name="Sephiroth.Widget.Checkbox3" parent="Base.Sephiroth.Widget.Checkbox3"/>
 
 </resources>

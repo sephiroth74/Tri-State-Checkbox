@@ -19,7 +19,7 @@
         <!--android:name="indeterminate_box_outer_merged"-->
         <!--android:fillAlpha="0"-->
         <!--android:fillColor="?attr/colorControlNormal"-->
-        <!--android:pathData="@string/path_unchecked_to_checked_intermediate"/>-->
+        <!--android:pathData="@string/sephiroth_checkbox3_square_rotated_bottom_left"/>-->
         <!--</group>-->
         <group
                 android:name="box_dilate"

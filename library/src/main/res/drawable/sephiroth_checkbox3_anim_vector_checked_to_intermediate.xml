@@ -28,7 +28,7 @@
                     android:name="box_inner_merged"
                     android:fillAlpha="0"
                     android:fillColor="?attr/colorAccent"
-                    android:pathData="@string/path_unchecked_intermediate"/>
+                    android:pathData="@string/sephiroth_checkbox3_path_circle_centered"/>
         </group>
     </group>
 </vector>

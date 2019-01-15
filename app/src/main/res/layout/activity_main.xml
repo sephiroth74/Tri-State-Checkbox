@@ -44,9 +44,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:sephiroth_checkbox3_checkableCycle="@array/sephiroth_checkbox3_cycleAll"
-            app:sephiroth_checkbox3_indeterminate="true"
+            app:sephiroth_checkbox3_indeterminate="false"
             android:checked="true"
-            android:enabled="true"
+            android:enabled="false"
     />
 
     <CheckBox
