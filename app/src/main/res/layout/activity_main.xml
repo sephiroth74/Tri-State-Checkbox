@@ -25,6 +25,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:enabled="true"
+            app:sephiroth_checkbox3_indeterminate="true"
+            android:checked="true"
     />
 
     <it.sephiroth.android.library.checkbox3state.CheckBox3

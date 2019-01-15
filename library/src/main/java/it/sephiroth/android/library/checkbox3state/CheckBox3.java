@@ -71,7 +71,9 @@ public class CheckBox3 extends AppCompatCheckBox {
 
             int index = getStateIndex(checked, indeterminate);
             if (!isValidStateIndex(index)) {
+                logger.e("Invalid state index (%d). Not allowed", index);
                 index = getFirstValidStateIndex(index);
+                logger.e("using next valid state: %d", index);
             }
             moveToState(index);
 
