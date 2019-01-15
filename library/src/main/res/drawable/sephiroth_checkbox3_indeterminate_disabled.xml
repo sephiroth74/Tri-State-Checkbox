@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="@dimen/sephiroth_checkbox3_size"
+        android:height="@dimen/sephiroth_checkbox3_size"
+        android:viewportWidth="18"
+        android:viewportHeight="18">
+
+    <group
+            android:translateX="0"
+            android:translateY="0">
+        <path
+                android:fillColor="?attr/colorControlNormal"
+                android:pathData="M 2 0 L 16 0 Q 18 0 18 2 L 18 16 Q 18 18 16 18 L 2 18 Q 0 18 0 16 L 0 2 Q 0 0 2 0 Z"/>
+        <group
+                android:translateX="3"
+                android:translateY="8">
+            <path
+                    android:fillColor="#ff000000"
+                    android:fillAlpha="0"
+                    android:strokeAlpha="0"
+                    android:strokeWidth="1"
+                    android:pathData="M 0 0 H 12 V 12 H 0 V 0 Z"/>
+            <path
+                    android:fillColor="@android:color/background_light"
+                    android:pathData="M 1 0 L 11 0 Q 12 0 12 1 L 12 1 Q 12 2 11 2 L 1 2 Q 0 2 0 1 L 0 1 Q 0 0 1 0 Z"/>
+        </group>
+    </group>
+</vector>

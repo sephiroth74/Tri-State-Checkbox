@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- All states are enabled -->
+    <integer-array name="sephiroth_checkbox3_cycleAll">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- Indeterminate default: cycle between checked -> indeterminate -> unchecked -> checked... -->
+    <integer-array name="sephiroth_checkbox3_cycleIndeterminate">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- cycle between checked and indeterminate only -->
+    <integer-array name="sephiroth_checkbox3_cycleCheckedIndeterminateOnly">
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- cycle between unchecked and indeterminate only -->
+    <integer-array name="sephiroth_checkbox3_cycleUncheckedIndeterminateOnly">
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- Regular checkbox cycles. Checked and Unchecked states only -->
+    <integer-array name="sephiroth_checkbox3_cycleCheckedUncheckedOnly">
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+</resources>

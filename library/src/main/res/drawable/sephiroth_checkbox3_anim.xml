@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+                   xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- disabled states -->
+    <item
+            android:drawable="@drawable/sephiroth_checkbox3_checked_disabled"
+            android:state_checked="true"
+            app:state_indeterminate="false"
+            android:state_enabled="false"/>
+
+    <item
+            android:drawable="@drawable/sephiroth_checkbox3_indeterminate_disabled"
+            android:state_checked="true"
+            app:state_indeterminate="true"
+            android:state_enabled="false"/>
+
+    <item
+            android:drawable="@drawable/sephiroth_checkbox3_indeterminate_disabled"
+            android:state_checked="false"
+            app:state_indeterminate="true"
+            android:state_enabled="false"/>
+
+    <item
+            android:drawable="@drawable/sephiroth_checkbox3_unchecked"
+            android:state_checked="false"
+            app:state_indeterminate="false"
+            android:state_enabled="false"/>
+
+    <!-- checked state -->
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_checked_down"-->
+    <!--android:state_checked="true"-->
+    <!--android:state_pressed="true"-->
+    <!--app:state_indeterminate="false" />-->
+
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_checked_hovered"-->
+    <!--android:state_checked="true"-->
+    <!--android:state_hovered="true"-->
+    <!--app:state_indeterminate="false" />-->
+
+
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_checked_focused"-->
+    <!--android:state_checked="true"-->
+    <!--android:state_focused="true"-->
+    <!--app:state_indeterminate="false" />-->
+
+    <!-- ENABLED STATES -->
+
+    <item
+            android:id="@+id/checked"
+            android:drawable="@drawable/sephiroth_checkbox3_checked"
+            android:state_checked="true"
+            app:state_indeterminate="false"
+            android:state_enabled="true"/>
+
+    <item
+            android:id="@+id/indeterminate"
+            android:drawable="@drawable/sephiroth_checkbox3_indeterminate"
+            app:state_indeterminate="true"/>
+
+    <item
+            android:id="@+id/unchecked"
+            android:drawable="@drawable/sephiroth_checkbox3_unchecked"
+            android:state_checked="false"
+            app:state_indeterminate="false"/>
+
+    <!-- indeterminate state -->
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_indeterminate_down"-->
+    <!--android:state_pressed="true"-->
+    <!--app:state_indeterminate="true" />-->
+
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_indeterminate_hovered"-->
+    <!--android:state_hovered="true"-->
+    <!--app:state_indeterminate="true" />-->
+
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_indeterminate_disabled"-->
+    <!--android:state_enabled="false"-->
+    <!--app:state_indeterminate="true" />-->
+
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_indeterminate_focused"-->
+    <!--android:state_focused="true"-->
+    <!--app:state_indeterminate="true" />-->
+
+
+    <!-- unchecked state -->
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_unchecked_down"-->
+    <!--android:state_pressed="true"-->
+    <!--app:state_indeterminate="false" />-->
+
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_unchecked_hovered"-->
+    <!--android:state_hovered="true"-->
+    <!--app:state_indeterminate="false" />-->
+
+    <!--<item-->
+    <!--android:drawable="@drawable/adobe_spectrum_lightest_checkbox_unchecked_focused"-->
+    <!--android:state_focused="true"-->
+    <!--app:state_indeterminate="false" />-->
+
+
+    <!-- TRANSITIONS BETWEEN STATES -->
+
+    <!-- checked to indeterminate -->
+    <transition
+            android:drawable="@drawable/sephiroth_checkbox3_transition_checked_to_indeterminate"
+            android:fromId="@+id/checked"
+            android:toId="@+id/indeterminate"/>
+
+    <!-- indeterminate to unchecked -->
+    <transition
+            android:drawable="@drawable/sephiroth_checkbox3_transition_indeterminate_to_unchecked"
+            android:fromId="@+id/indeterminate"
+            android:toId="@+id/unchecked"/>
+
+    <!-- unchecked to indeterminate -->
+    <transition
+            android:drawable="@drawable/sephiroth_checkbox3_transition_unchecked_to_indeterminate"
+            android:fromId="@+id/unchecked"
+            android:toId="@+id/indeterminate"/>
+
+    <!-- indeterminate to checked -->
+    <transition
+            android:drawable="@drawable/sephiroth_checkbox3_transition_indeterminate_to_checked"
+            android:fromId="@+id/indeterminate"
+            android:toId="@+id/checked"/>
+
+
+    <!-- unchecked to checked -->
+    <transition
+            android:drawable="@drawable/sephiroth_checkbox3_transition_unchecked_to_checked"
+            android:fromId="@+id/unchecked"
+            android:toId="@+id/checked"/>
+
+    <!-- checked to unchecked -->
+    <transition
+            android:drawable="@drawable/sephiroth_checkbox3_transition_checked_to_unchecked"
+            android:fromId="@+id/checked"
+            android:toId="@+id/unchecked"/>
+</animated-selector>

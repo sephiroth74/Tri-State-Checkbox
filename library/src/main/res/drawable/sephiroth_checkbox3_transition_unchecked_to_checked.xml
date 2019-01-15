@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/sephiroth_checkbox3_anim_vector_unchecked_to_checked">
+    <target
+            android:name="icon_null"
+            android:animation="@anim/sephiroth_checkbox3_animation_unchecked_to_checked_icon_null"/>
+    <target
+            android:name="box_outer_merged"
+            android:animation="@anim/sephiroth_checkbox3_animation_unchecked_to_checked_box_outer_merged"/>
+    <target
+            android:name="box_inner_merged"
+            android:animation="@anim/sephiroth_checkbox3_animation_unchecked_to_checked_box_inner_merged"/>
+</animated-vector>

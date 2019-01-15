@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="state_indeterminate" format="boolean"/>
+
+    <!-- Checkbox 3 theme -->
+    <attr name="sephiroth_checkbox3Style" format="reference"/>
+
+    <!-- Checkbox 3 Style -->
+    <declare-styleable name="CheckBox3">
+        <attr name="android:textColor"/>
+        <attr name="android:button"/>
+        <attr name="android:fontFamily"/>
+        <attr name="android:checked"/>
+        <attr name="sephiroth_checkbox3_indeterminate" format="boolean"/>
+        <attr name="sephiroth_checkbox3_checkableCycle" format="reference"/>
+    </declare-styleable>
+</resources>

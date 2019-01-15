@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="btn_checkbox_checked"
+        android:width="18dp"
+        android:height="18dp"
+        android:viewportHeight="18"
+        android:viewportWidth="18">
+    <group
+            android:name="icon_null"
+            android:scaleX="0.2"
+            android:scaleY="0.2"
+            android:translateX="9"
+            android:translateY="9">
+        <group
+                android:name="check"
+                android:scaleX="5"
+                android:scaleY="5">
+            <path
+                    android:name="check_path_merged"
+                    android:fillColor="?attr/colorAccent"
+                    android:pathData="@string/path_checked"/>
+        </group>
+        <group
+                android:name="box_dilate"
+                android:scaleX="5"
+                android:scaleY="5">
+            <path
+                    android:name="box_inner_merged"
+                    android:fillAlpha="0"
+                    android:fillColor="?attr/colorAccent"
+                    android:pathData="@string/path_unchecked_intermediate"/>
+        </group>
+    </group>
+</vector>
