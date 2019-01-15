@@ -8,39 +8,19 @@
 
 
     <it.sephiroth.android.library.checkbox3state.CheckBox3
-            android:id="@+id/checkBox3"
+            android:id="@+id/checkBox1"
             style="@style/Sephiroth.Widget.Checkbox3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:text="Tri State CheckBox"
-            app:sephiroth_checkbox3_checkableCycle="@array/sephiroth_checkbox3_cycleIndeterminate"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:sephiroth_checkbox3_checkableCycle="@array/sephiroth_checkbox3_cycleCheckedUncheckedOnly"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:enabled="true"
             app:sephiroth_checkbox3_indeterminate="false"
-            android:checked="true"
-    />
-
-    <it.sephiroth.android.library.checkbox3state.CheckBox3
-            style="@style/Sephiroth.Widget.Checkbox3"
-            android:id="@+id/checkBox4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tri State CheckBox"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox3"
-            android:layout_marginTop="16dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:sephiroth_checkbox3_checkableCycle="@array/sephiroth_checkbox3_cycleAll"
-            app:sephiroth_checkbox3_indeterminate="false"
-            android:checked="true"
-            android:enabled="false"
+            android:checked="false"
     />
 
     <CheckBox
@@ -49,10 +29,24 @@
             android:text="CheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox"
-            app:layout_constraintTop_toBottomOf="@+id/checkBox4"
-            android:layout_marginTop="16dp"
-            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"/>
+            android:id="@+id/checkBox2"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox1"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp" app:layout_constraintStart_toStartOf="@+id/checkBox1"
+    />
+    <CheckBox
+            android:text="CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox3" app:layout_constraintStart_toStartOf="@+id/checkBox2"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox2"/>
+    <CheckBox
+            android:text="CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4" app:layout_constraintStart_toStartOf="@+id/checkBox2"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox3"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

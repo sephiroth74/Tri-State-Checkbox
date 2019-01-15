@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.ViewDebug;
+import androidx.annotation.ArrayRes;
 import androidx.appcompat.widget.AppCompatCheckBox;
 import timber.log.Timber;
 
@@ -80,6 +81,10 @@ public class CheckBox3 extends AppCompatCheckBox {
         } finally {
             a.recycle();
         }
+    }
+
+    public void setCycle(@ArrayRes final int cycleRes) {
+        setCycle(getResources().getIntArray(cycleRes));
     }
 
     /**
