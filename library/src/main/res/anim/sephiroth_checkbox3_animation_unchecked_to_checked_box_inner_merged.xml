@@ -5,7 +5,7 @@
             android:interpolator="@interpolator/sephiroth_checkbox3_unchecked_mtrl_animation_interpolator_1"
             android:propertyName="pathData"
             android:valueFrom="@string/sephiroth_checkbox3_path_unchecked"
-            android:valueTo="@string/sephiroth_checkbox3_circle_bottom_left"
+            android:valueTo="@string/sephiroth_checkbox3_circle_small_centered"
             android:valueType="pathType"/>
     <set android:ordering="sequentially">
         <objectAnimator
