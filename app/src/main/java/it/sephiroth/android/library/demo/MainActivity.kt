@@ -1,10 +1,8 @@
 package it.sephiroth.android.library.demo
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.CheckBox
-import android.widget.CompoundButton
-import it.sephiroth.android.library.checkbox3state.CheckBox3
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +22,7 @@ class MainActivity : AppCompatActivity() {
                 } else if (isChecked) {
                     checkbox_array.forEach { it.isChecked = true }
                 }
+                checkBox1.text = if(isChecked) "Select None" else "Select All"
                 checkBox1.setCycle(R.array.sephiroth_checkbox3_cycleCheckedUncheckedOnly)
                 listenToUpdates = true
             }
@@ -45,12 +44,15 @@ class MainActivity : AppCompatActivity() {
                     if (checked_size == checkbox_array.size) {
                         checkBox1.setCycle(R.array.sephiroth_checkbox3_cycleCheckedUncheckedOnly)
                         checkBox1.setChecked(true, false)
+                        checkBox1.text = "Select None"
                     } else if (checked_size == 0) {
                         checkBox1.setCycle(R.array.sephiroth_checkbox3_cycleCheckedUncheckedOnly)
                         checkBox1.setChecked(false, false)
+                        checkBox1.text = "Select All"
                     } else {
-                        checkBox1.setCycle(R.array.sephiroth_checkbox3_cycleIndeterminate)
-                        checkBox1.setChecked(true, true)
+                        checkBox1.setCycle(R.array.sephiroth_checkbox3_cycleAll)
+                        checkBox1.setChecked(false, true)
+                        checkBox1.text = "Select All"
                     }
                     listenToUpdates = true
                 }
