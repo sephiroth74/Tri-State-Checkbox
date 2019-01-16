@@ -1,6 +1,8 @@
 # Animated Tri State Checkbox
 3 State Checkbox for **Android** in pure Material Style, with animation between the states.
 
+<img src="./art/checkbox.gif" width="360" height="740" />
+
 # Usage
 
 In your layout:
