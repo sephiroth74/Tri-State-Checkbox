@@ -84,7 +84,7 @@ In xml layout:
 	        implementation 'com.github.sephiroth74:AndroidUIGestureRecognizer:Tag'
 	}
 
-Get the latest version  on [JitPack](https://jitpack.io/private#sephiroth74/Tri-State-Checkbox)
+Get the latest version  on [JitPack](https://jitpack.io/#sephiroth74/Tri-State-Checkbox)
 
 
 # License
