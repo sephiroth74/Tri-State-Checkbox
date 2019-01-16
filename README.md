@@ -1,6 +1,9 @@
 # Animated Tri State Checkbox
 3 State Checkbox for **Android** in pure Material Style, with animation between the states.
 
+[![](https://jitpack.io/v/sephiroth74/Tri-State-Checkbox.svg)](https://jitpack.io/#sephiroth74/Tri-State-Checkbox)
+
+
 <img src="./art/checkbox.gif" width="360" height="740" />
 
 # Usage
