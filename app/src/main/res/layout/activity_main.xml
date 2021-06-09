@@ -62,4 +62,12 @@
         app:layout_constraintStart_toStartOf="@+id/checkBox3"
         app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/checkBox1"
+        android:text="Sample in Java Code"
+        app:layout_constraintTop_toBottomOf="@id/checkBox4"
+        android:textColor="@android:color/black"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
