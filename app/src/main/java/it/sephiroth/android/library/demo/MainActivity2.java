@@ -1,12 +1,16 @@
 package it.sephiroth.android.library.demo;
 
-import androidx.appcompat.app.AppCompatActivity;
+
+/**
+ * Thanks so much to om Yohanes
+ * for helped me to use this library
+ */
 
 import android.os.Bundle;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 
-import java.util.Arrays;
+import androidx.appcompat.app.AppCompatActivity;
 
 import it.sephiroth.android.library.checkbox3state.CheckBox3;
 
