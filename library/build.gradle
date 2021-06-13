@@ -41,6 +41,9 @@ android {
             includeAndroidResources = true
         }
     }
+    kotlinOptions {
+        jvmTarget = '1.6' // Java 7 not supported by kotlinOptions jvmTarget
+    }
 
 }
 

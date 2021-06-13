@@ -1,5 +1,6 @@
 package it.sephiroth.android.library.demo
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.CheckBox
 import androidx.appcompat.app.AppCompatActivity
@@ -26,6 +27,10 @@ class MainActivity : AppCompatActivity() {
                 checkBox1.setCycle(R.array.sephiroth_checkbox3_cycleCheckedUncheckedOnly)
                 listenToUpdates = true
             }
+        }
+        buttonToJava.setOnClickListener{
+            val intent = Intent (this, MainActivity2::class.java)
+            startActivity(intent)
         }
 
     }

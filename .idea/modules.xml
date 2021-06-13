@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Tri-State-Checkbox.iml" filepath="$PROJECT_DIR$/.idea/Tri-State-Checkbox.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tri-State-Checkbox.iml" filepath="$PROJECT_DIR$/Tri-State-Checkbox.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tri-State-Checkbox.iml" filepath="$PROJECT_DIR$/.idea/modules/Tri-State-Checkbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tri-State-Checkbox.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tri-State-Checkbox.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Tri-State-Checkbox.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Tri-State-Checkbox.library.iml" />
     </modules>
   </component>
 </project>
